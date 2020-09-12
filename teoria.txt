@@ -1,0 +1,96 @@
+01 - Introducción
+
+Back-End: Capa de datos y lógica del negocio.
+Front-End: Capa de presentación, interacción con el usuario.
+
+ECMAScript: Estándar de ECMA basado en JavaScript.
+
+NodeJS: Plataforma o entorno JavaScript basada en Google V8 (escrita en C++, open source, manipulable y embebida).
+
+Node e IO fundaron The Node Foundation.
+
+Características de NodeJS:
+
+- Single Thread: 1 único hilo.
+- Concurrente.
+- No paralelismo: Varias operaciones en simultáneo.
+- Ejecución de callbacks (varias acciones).
+
+¿Para qué es bueno NodeJS?
+
+- Conexión persistente con el navegador y el servidor (Walmart).
+- Necesidad de procesamiento en tiempo real.
+- Sockets.
+
+02 - Instalación
+
+- En Linux se realiza a través de CURL
+- En Windows es muy fácil
+
+03 - Instalación de Visual Studio Code
+
+code .
+
+04 - Módulos y Require
+
+Módulos: Unidad de funcionalidades listas para nuestro uso.
+
+Formatear código: Shift + Alt + F
+
+String Templates: disponibles desde ECMAScript 6 => Alt + 96
+
+05 - Require y Exports
+
+module.exports = {
+    autor: autor,
+    saludar: function () {
+        console.log("Hola Mundo!");
+    }
+};
+
+06 - Funciones flecha
+
+Se pueden usar a partir de ECMAScript 6.
+
+07 - File System
+
+- Procesamiento asíncrono: Te permite ejecutar diferentes operaciones en un espacio de tiempo.
+- Procesamiento síncrono: Los procesos se ejecutan de forma secuencial.
+
+08 - NPM (Node Package Manager)
+
+- npm install lodash
+
+Lodash es una biblioteca de JavaScript que proporciona funciones de utilidad para tareas de programación 
+comunes utilizando el paradigma de programación funcional.
+
+- npm init: Para inicializar un npm package, crea el archivo: 'package.json'
+
+- npm install: Lee el archivo 'package.json' e instala las dependencias.
+
+- npm uninstall lodash: Para desinstalar un módulo.
+
+09 - Lodash - Yargs
+
+Yargs le ayuda a crear herramientas de línea de comandos interactivas, analizando argumentos y 
+generando una elegante interfaz de usuario.
+
+node .\cap09.js --usuario=UskoKruM2010
+
+10 - Inspector (Debugging)
+
+Depuración de código utilizando NodeJS.
+
+node inspect .\app.js
+
+n => Para ir a la siguiente línea.
+repl => Para entrar a ver cada uno de los valores.
+list(10) => De la línea 1, 10 espacios en adelante.
+
+debugger; => Para crear un punto de interrupción.
+c => Para ir a la línea de interrupción (breakpoint).
+
+Nodemon:
+nodemon .\app.js 
+Se pueden cambiar valores del código y grabando, todo se refresca.
+nodemon inspect .\app.js 
