@@ -95,4 +95,24 @@ nodemon .\app.js
 Se pueden cambiar valores del código y grabando, todo se refresca.
 nodemon inspect .\app.js 
 
-11 - 
+11 - Chrome Dev Tools
+
+En una pestaña de Google Chrome: chrome://inspect
+Para que Dev Tools escuche: node --inspect-brk app.js
+Dentro de Chrome Dev Tools debe aparecer el script que estamos ejecutando.
+
+Para cambiar en vivo: nodemon --inspect-brk app.js
+
+12 - HTTP Request
+
+npm i request: Para instalar el módulo 'request', se debe importar.
+
+http://maps.googleapis.com/maps/api/geocode/json => Vacío.
+
+jsonviewer.stack.hu
+
+13 - HTTPS API GitHub
+
+npm i https: Para instalar el módulo 'https'.
+
+14 - Promesas
