@@ -116,3 +116,28 @@ jsonviewer.stack.hu
 npm i https: Para instalar el módulo 'https'.
 
 14 - Promesas
+
+Viene de forma nativa desde ECMAScript6 (ES6), van a permitir que nuestro código sea más legible y poder 
+hacer procesamientos de forma asíncrona y esperar hasta que te devuelva un resultado prometido.
+
+15 - Node Fetch
+
+La API Fetch proporciona una interfaz para recuperar recursos (incluyendo recursos remotos a través de redes).
+
+16 - Express Middleware
+
+Express es un framework (infraestructura de aplicaciones) web, uno de los más importantes en el ecosistema de NodeJS.
+
+Middlewares: Pequeños trozos de código que se ejecutan a modo de comprobación cuando un usuario realiza 
+una petición, entre el request y antes del response.
+
+17 - Pug / Hbs (Motores de plantillas)
+
+pug: Motor de plantillas para trabajar de forma práctica nuestras páginas web.
+npm i pug
+
+Para importar Boostrap y usar las clases: se hace con notación de punto.
+
+hbs: Motor de plantillas proveniente de handlebars.js, para trabajar de forma más práctica.
+
+18 - 

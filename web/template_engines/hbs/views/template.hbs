@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>{{mensaje}}</h1>
+        <table class="table table-striped">
+            {{#each personas}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td><a href="/persona/{{this.id}}">{{this.nombre}}</a></td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</body>
+
+</html>
