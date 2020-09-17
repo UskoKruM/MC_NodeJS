@@ -1,0 +1,24 @@
+<div class="container">
+    <br />
+    <form action="/personaForm/persona/operar" method="POST">
+        <input type="hidden" name="_id" value="{{persona._id}}" />
+        <div class="form-group">
+            <label for="txtDNI">DNI:</label>
+            <input type="text" class="form-control" id="txtDNI" name="txtDNI" value="{{persona.dni}}">
+        </div>
+        <div class="form-group">
+            <label for="txtApellidos">Nombres:</label>
+            <input type="text" class="form-control" id="txtApellidos" name="txtApellidos" value="{{persona.apellidos}}">
+        </div>
+        <div class="form-group">
+            <label for="txtNombres">Nombres:</label>
+            <input type="text" class="form-control" id="txtNombres" name="txtNombres" value="{{persona.nombres}}">
+        </div>
+        <div class="form-group">
+            <label for="numEdad">Edad:</label>
+            <input type="text" class="form-control" id="numEdad" name="numEdad" value="{{persona.edad}}">
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a href="/" class="btn btn-danger">Cancelar</a>
+    </form>
+</div>

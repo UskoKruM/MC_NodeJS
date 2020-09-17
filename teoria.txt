@@ -153,4 +153,24 @@ npm install: Para instalar las dependencias del archivo package.json
 
 set DEBUG=pug-generator:* ; npm start => Para iniciar la aplicación.
 
-19 - 
+19 - MongoDB + Robo 3T
+
+Robo 3T: Interfaz para interactuar con la base de datos.
+
+En la ruta de instalación de MongoDB abrimos un PowerShell, indicamos la ruta de la carpeta data:
+
+mongod.exe --dbpath C:\D\HD\UK\JavaScript\FWs\NodeJS\Proyectos\MC_NodeJS\mongo-data
+
+Comienza a correr en el puerto 27017
+
+Abrir otro símbolo del sistema y acceder a la ruta de instalación:
+
+mongo.exe => Y ya podemos ejecutar comandos.
+
+20 - Mongoose (CRUD)
+
+ODM: Object Document Mapping, Mongoose es un ODM.
+
+- Creamos un nuevo proyecto con express-generator
+- Creamos 2 carpetas dentro: config y models
+- Instalar mongoose: npm i mongoose
