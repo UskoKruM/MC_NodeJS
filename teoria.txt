@@ -140,4 +140,17 @@ Para importar Boostrap y usar las clases: se hace con notación de punto.
 
 hbs: Motor de plantillas proveniente de handlebars.js, para trabajar de forma más práctica.
 
-18 - 
+18 - Express Generator
+
+Es un generador que nos va a dar un esqueleto (estructura básica) para nuestros proyectos.
+
+npm i express-generator -g
+
+express --view=pug pug-generator => Para generar un proyecto con 'pug'.
+express --view=hbs hbs-generator => Para generar un proyecto con 'hbs'.
+
+npm install: Para instalar las dependencias del archivo package.json
+
+set DEBUG=pug-generator:* ; npm start => Para iniciar la aplicación.
+
+19 - 

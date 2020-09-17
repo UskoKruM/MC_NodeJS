@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h2= nombreCanal
+
+  table
+    for persona in personas
+      tr
+        td=persona.id
+          td
+            a(href='/persona/' + persona.id) #{persona.nombre}
