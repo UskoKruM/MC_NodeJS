@@ -165,6 +165,7 @@ Comienza a correr en el puerto 27017
 
 Abrir otro símbolo del sistema y acceder a la ruta de instalación:
 
+C:\Program Files\MongoDB\Server\4.4
 mongo.exe => Y ya podemos ejecutar comandos.
 
 20 - Mongoose (CRUD)
@@ -174,3 +175,5 @@ ODM: Object Document Mapping, Mongoose es un ODM.
 - Creamos un nuevo proyecto con express-generator
 - Creamos 2 carpetas dentro: config y models
 - Instalar mongoose: npm i mongoose
+
+set DEBUG=app:* ; npm start => Para iniciar la aplicación.
